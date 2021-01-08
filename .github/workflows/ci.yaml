@@ -26,7 +26,7 @@ jobs:
       name: Download files
       run: |
         pip3 install gdown
-        gdown https://drive.google.com/uc?id=197kgRfSomZzaSbRrjWTx614le2qN-oxx
+        ~/.local/bin/gdown https://drive.google.com/uc?id=197kgRfSomZzaSbRrjWTx614le2qN-oxx
         unzip planning_simulator_sample_map.zip
         mv lanelet2_map.osm data/psim/
         mv pointcloud_map.pcd data/psim/
