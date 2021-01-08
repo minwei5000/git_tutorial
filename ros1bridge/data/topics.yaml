@@ -1,0 +1,2 @@
+topics:
+    - {topic: "/current_pose", type: "geometry_msgs/msg/PoseStamped"}
